@@ -10,6 +10,7 @@ export default defineConfig({
                 'resources/js/app.js',
             ],
             refresh: true,
+            publicDirectory: 'public',
         }),
         vue({
             template: {
@@ -23,6 +24,9 @@ export default defineConfig({
     resolve: {
         alias: {
             vue: 'vue/dist/vue.esm-bundler.js',
+            '@': '/resources/js',
+            '~': '/public'
         },
     },
+    publicDir: 'public',
 });

@@ -17,7 +17,7 @@
         "sass": "^1.56.1",
         "tailwindcss": "^3.4.13",
         "vite": "^5.0",
-        "vue": "^3.5.12"
+        "vue": "^3.4.15"
     },
     "dependencies": {
         "font-awesome": "^4.7.0",

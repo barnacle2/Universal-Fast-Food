@@ -247,7 +247,7 @@ export default {
           left: 0;
           width: 100%;
           height: 100%;
-          background-image: url(@/assets/images/gallery/2jollibee.jpg);
+          background-image: url('/images/gallery/2jollibee.jpg');
           background-size: cover;
           background-position: center;
           opacity: 0.35; /* Set the desired opacity for the background image */
